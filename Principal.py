@@ -412,7 +412,7 @@ soleils = PhotoImage(master=root,file="./Images/soleils.png")
 def part1a(event):
     canvas.create_image(500, 375, image = ponts, anchor = "center")
     image = Image.open('./Images/ponts.png')
-    canvas.create_text(500, 150, text = "Premier porte : Le pont-levis", fill="#C0A6A6", font=titre)
+    canvas.create_text(500, 150, text = "Première porte : Le pont-levis", fill="#C0A6A6", font=titre)
     canvas.create_text(510, 350, text = "Réussite : « Accès à la salle des commandes du pont-levis. »\n\n\nÉchec : « Vous mourrez. \nLes cochons rebelles ne peuvent pas passer le pont-levis.\nIls se noient, sont appréhendés\net envoyé à l’abattoir. »", fill="black", tags="part1", font=recit)
     winsound.PlaySound("./sound/porte1.wav", winsound.SND_ASYNC)
 
